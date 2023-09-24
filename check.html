@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        #main {
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+            gap: 30px;
+            background-image: linear-gradient(#7559A6, #C091BD);
+        }
+
+        .data {
+            position: absolute;
+            top: 20px;
+            left: 25vw;
+            font-size: 60px;
+            font-weight: 600;
+        }
+
+        .Driver {
+            display: flex;
+            flex-direction: column;
+            border: 2px solid #000;
+            border-radius: 15px;
+            height: 55vh;
+            align-items: center;
+            background-color: #FFF;
+            color: #000;
+            justify-content: space-evenly;
+            transition: 1s ease-in;
+        }
+
+        .Driver:hover {
+            box-shadow: 5px 10px royalblue;
+        }
+
+        .Costrumer {
+            display: flex;
+            flex-direction: column;
+            border: 2px solid #000;
+            border-radius: 15px;
+            height: 55vh;
+            align-items: center;
+            background-color: #101010;
+            color: #FFF;
+            justify-content: space-evenly;
+            transition: 1s ease-in;
+        }
+
+        .Costrumer:hover {
+            box-shadow: 5px 10px;
+        }
+
+        form {
+            height: 50%;
+
+            margin: 20px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        form input {
+            padding: 10px 10px 10px 2px;
+            margin: 10px;
+            margin-left: 10px;
+            margin-left: 0;
+            border-radius: 3px;
+            border: 2px solid #dadada;
+        }
+
+        form label {
+            padding-right: 75%;
+            border-radius: 3px;
+            border: 2px solid #dadada;
+            padding: 10px 80% 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <h1 class="data">Your data our responsibillity!!!</h1>
+        <h1></h1>
+        <div class="Driver">
+            <h1>Create Account</h1>
+            <h1>DrivER</h1>
+            <p>Already have an account <a href="https://umeshbisht1.github.io/sign-page/"
+                    style="color: lightseagreen;">Login</a></p>
+            <form action="">
+                <label for="">Username</label><br>
+                <input type="text" placeholder="First name"><input type="text" placeholder="Last name">
+                <br><input type="text" placeholder="RC number"><br>
+                <input type="text" placeholder="Adhar card">
+            </form>
+            <button style="padding: 10px 15px; border-radius: 3px solid #000;"><a href="">Submit</a></button>
+            
+        </div>
+        <h2>Register as a user <a href="check2.html">Register</a></h2>
+
+    </div>
+</body>
+
+</html>
